@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'ubuntu';
+    src: url('/assets/fonts/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'ubuntu-medium';
+    src: url('/assets/fonts/Ubuntu-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'ubuntu-bold';
+    src: url('/assets/fonts/Ubuntu-Bold.ttf');
+}
+
+
+
+@font-face {
+    font-family: 'poppins';
+    src: url('/assets/fonts/Ubuntu-Regular.ttf');
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* cursor area */
+.services .serv-content .card, .menu-btn{
+    cursor: pointer;
+}
+
+/* transtions */
+.services .serv-content .card .box, .navbar,
+.navbar .logo a span, .navbar .menu li a,.navbar .menu,
+.home .home-content a, .about .about-content .right a,
+.services .serv-content .card .box, .services .serv-content .card{
+    transition: ease 0.3s all;
+}
+
+/* section {
+    padding: 100px 0;
+} */
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
