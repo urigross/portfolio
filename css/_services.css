@@ -1,12 +1,14 @@
 /* services section styling */
-.services{
+.services, .projects{
     color: #fff;
     background: #111;
 }
-.services .title::before{
+.services .title::before,
+.projects .title::before{
     background: #fff;
 }
-.services .title::after{
+.services .title::after,
+.projects .title::after{
     background: #111;
     content: "What I provide";
 }

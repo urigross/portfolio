@@ -5,13 +5,14 @@
 @import url('/css/_about.css');
 @import url('/css/_services.css');
 @import url('/css/_skills.css');
+@import url('/css/_projects.css');
 
 
 /* all similar content styling */
 section{
     padding: 100px 0;
 }
-.about, .services, .skills{
+.about, .services, .skills, .projects{
     font-family: 'poppins', sans-serif;
 }
 .about .about-content,
@@ -132,7 +133,7 @@ section .title::after{
     }
     .skills .skills-content .column{
         width: 100%;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
     }
 }
 @media (max-width:690px){
