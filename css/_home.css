@@ -18,7 +18,6 @@
 }
 .home .home-content .text-2 {
     font-size: 75px;
-    font-weight: 600;
     margin-left: -3px;
 }
 .home .home-content .text-3 {
@@ -27,7 +26,6 @@
 }
 .home .home-content .text-3 span {
     color: crimson;
-    font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;

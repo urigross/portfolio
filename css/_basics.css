@@ -1,25 +1,3 @@
-@font-face {
-    font-family: 'ubuntu';
-    src: url('/assets/fonts/Ubuntu-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'ubuntu-medium';
-    src: url('/assets/fonts/Ubuntu-Medium.ttf');
-}
-
-@font-face {
-    font-family: 'ubuntu-bold';
-    src: url('/assets/fonts/Ubuntu-Bold.ttf');
-}
-
-
-
-@font-face {
-    font-family: 'poppins';
-    src: url('/assets/fonts/Ubuntu-Regular.ttf');
-}
-
 
 
 * {
@@ -29,24 +7,65 @@
     text-decoration: none;
 }
 
+section {
+    padding: 100px 0;
+}
+
+
+/* common styles */
+
+.about .about-content,
+.services .serv-content,
+.skills, .skills-content,
+.contact , .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'ubuntu', sans-serif;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+
 /* cursor area */
-.services .serv-content .card, .menu-btn{
+
+.services .serv-content .card,
+.menu-btn, .contact .right form .button button {
     cursor: pointer;
 }
 
+
 /* transtions */
-.services .serv-content .card .box, .navbar,
-.navbar .logo a span, .navbar .menu li a,.navbar .menu,
-.home .home-content a, .about .about-content .right a,
-.services .serv-content .card .box, .services .serv-content .card,
-.projects .carousel .card, .projects .carousel .card img,
-.projects .carousel .card .box, .owl-dot{
+
+.services .serv-content .card .box,
+.navbar,
+.navbar .logo a span,
+.navbar .menu li a,
+.navbar .menu,
+.home .home-content a,
+.about .about-content .right a,
+.services .serv-content .card .box,
+.services .serv-content .card,
+.projects .carousel .card,
+.projects .carousel .card img,
+.projects .carousel .card .box,
+.owl-dot,
+.contact .right form .button button {
     transition: ease 0.3s all;
 }
+
 
 /* section {
     padding: 100px 0;
 } */
+
 .max-width {
     max-width: 1300px;
     padding: 0 80px;

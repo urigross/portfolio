@@ -1,6 +1,6 @@
-.projects .title::before{
+/* .projects .title::before{
     width: 260px;
-}
+} */
 
 .projects .title::after{
     content: "Projects gallery";
@@ -9,7 +9,8 @@
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
-    text-align: center; 
+    text-align: center;
+    overflow: hidden;
 }
 .projects .carousel .card:hover{
     background: crimson;
@@ -26,7 +27,6 @@
 }
 .projects .carousel .card .text{
     font-size: 25px;
-    font-weight: 500;
     margin: 10px 0 7px 0;
 }
 .projects .carousel .card img{

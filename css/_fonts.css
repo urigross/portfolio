@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'ubuntu';
+    src: url('/assets/fonts/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'ubuntu-medium';
+    src: url('/assets/fonts/Ubuntu-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'ubuntu-bold';
+    src: url('/assets/fonts/Ubuntu-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('/assets/fonts/Ubuntu-Regular.ttf');
+}
+
+
+/* fonts common styles */
+.about .about-content .right a,
+section .title,
+.contact .contact-content .info .head,
+.contact .right form .button button,
+.home .home-content .text-3 span,
+.projects .carousel .card .text,
+.services .serv-content .card .text,
+.skills .skills-content .left a,
+.skills .skills-content .right span{
+    font-weight: 500;
+}
+.about .about-content .right .text,
+.contact .contact-content .text,
+.home .home-content .text-2 ,
+.navbar .logo a,
+.navbar .menu li a,
+.skills .skills-content .left .text{
+    font-weight: 600;
+}
+.about,
+.services,
+.skills,
+.projects, .contact ,
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    font-family: 'poppins', sans-serif;
+}
+
