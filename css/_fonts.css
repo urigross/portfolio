@@ -44,7 +44,8 @@ section .title,
 .skills,
 .projects, .contact ,
 .contact .right form .field input,
-.contact .right form .textarea textarea{
+.contact .right form .textarea textarea,
+footer{
     font-family: 'poppins', sans-serif;
 }
 

@@ -1,0 +1,12 @@
+ footer{
+     background: #111;
+     padding: 20px 23px;
+     color: #fff;
+ }
+ footer span a{
+     color: crimson;
+     text-decoration: none;
+ }
+ footer span a:hover{
+     text-decoration: underline;
+ }

@@ -8,6 +8,11 @@
 @import url('/css/_projects.css');
 @import url('/css/_contact.css');
 @import url('/css/_fonts.css');
+@import url('/css/_footer.css');
+
+html{
+    scroll-behavior: smooth;
+}
 
 /* black line  */
 

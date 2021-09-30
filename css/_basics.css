@@ -37,7 +37,8 @@ section .title {
 /* cursor area */
 
 .services .serv-content .card,
-.menu-btn, .contact .right form .button button {
+.menu-btn, .contact .right form .button button,
+.scroll-up-btn {
     cursor: pointer;
 }
 
@@ -57,7 +58,8 @@ section .title {
 .projects .carousel .card img,
 .projects .carousel .card .box,
 .owl-dot,
-.contact .right form .button button {
+.contact .right form .button button,
+.scroll-up-btn {
     transition: ease 0.3s all;
 }
 
