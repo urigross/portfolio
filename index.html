@@ -49,13 +49,17 @@
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="assets/images/profile-1.jpeg" alt="profile image">
+                    <img src="assets/images/uri-profile-1.jpg" alt="profile image">
                 </div>
                 <div class="column right">
                     <div class="text">I am Uri and I'm a <span class="typing-2"></span></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque enim sunt eaque porro facere vel officiis illum cupiditate aliquam nesciunt, soluta reiciendis, harum ipsam eligendi quo voluptatum, vero dicta. Iste perspiciatis modi
-                        harum amet maxime magnam corrupti cupiditate deleniti. Hic laudantium minima totam vero. At cum rerum quisquam, consequuntur fugiat distinctio earum, eos perspiciatis maxime reprehenderit non nulla aperiam sint.</p>
-                    <a href="#">Download CV</a>
+                    <p>So I guess that you would like to know about this person on the left. Well this is me!  My name is Uri and As a child liked white-hat hacking (and i still do) pc-games & coding.</p> 
+                         <p>I grew up I got married and got 2 awesome daughters!</p>
+                         <p>
+                         Used to work as a manager in our Hardwood importing company. There I ran the financial and the technologic side of the company which were my interest. 
+                         After we sold our part - got some time to turn the passion to code into something real. 
+                         Learned a full stack development in Coding Academy, And made my full stack Project along with my team. You could view it at Projects section.</p>
+                    <a href="/assets/cv/Uri Gross Fullstack resume.docx">Download CV</a>
                 </div>
             </div>
         </div>
@@ -68,15 +72,15 @@
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-code"></i>
-                        <div class="text">Full-stack development</div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla nihil autem deserunt explicabo aperiam sit.</p>
+                        <div class="text">Full-stack web apps development</div>
+                        <p>Frontend: vanilla Js, Vue.js Libraries: fontAwesome, jQuery & more.</p><p>Backend: Node.js / express.js</p><p> DB: MongoDB.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="far fa-image"></i>
                         <div class="text">Frontend development</div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla nihil autem deserunt explicabo aperiam sit.</p>
+                        <p>Vanilla Js, Vue.js Libraries: fontAwesome, jQuery & more. SASS, CSS3 javascript -ES6 and up</p>
                     </div>
                 </div>
             </div>
@@ -140,7 +144,13 @@
             </div>
         </div>
     </section>
-    projects section start
+    <!-- projects section start -->
+    <!-- Audio start -->
+    <audio>
+        <source src="https://urigross.github.io/mineSweeper/sounds/solve_the_puzzle.ogg"></source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+    <!-- end of audio -->
     <section class="projects" id="projects">
         <div class="max-width">
             <h2 class="title">My Projects</h2>
@@ -160,7 +170,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <div class="box">
+                    <div class="box minesweeper">
                         <img src="assets/images/mineSweeperTemp.jpg" alt="">
                         <div class="text">Minsweeper Game!</div>
                         <p>The Classic game with new features! JavaScript Vanilla.</p>
@@ -217,21 +227,22 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="https://formsubmit.co/urigross@gmail.com" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Name" name="name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" placeholder="Email" name="email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" placeholder="Subject" name="_subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Project description..." required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Project description..." name="project-description" required></textarea>
                         </div>
+                        <input type="hidden" name="_autoresponse" value="Thank you for submitting through my website. Best, Uri Gross">
                         <div class="button">
                             <button type="submit">Send message</button>
                         </div>

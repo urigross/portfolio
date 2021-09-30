@@ -1,20 +1,31 @@
+// Audio hovering functionality
+var audio = $("audio")[0];
+$(".minesweeper").mouseenter(function () {
+    audio.volume = 0.5;
+    audio.play();
+});
+$(".minesweeper").mouseleave(function () {
+    audio.pause();
+});
 $(document).ready(function () {
     $(window).scroll(function () {
+        //  Navbar apperance toggling when scrolling down
         if (this.scrollY > 20) {
             $('.navbar').addClass("sticky");
         } else {
             $('.navbar').removeClass("sticky");
         }
-        if(this.scrollY > 500){
+        // Scroll btn apperance toggling
+        if (this.scrollY > 500) {
             $('.scroll-up-btn').addClass("show");
         }
-        else{
+        else {
             $('.scroll-up-btn').removeClass("show");
         }
     });
     // slide-up script
-    $('.scroll-up-btn').click(function(){
-        $('html').animate({scrollTop: 0});
+    $('.scroll-up-btn').click(function () {
+        $('html').animate({ scrollTop: 0 });
     })
     // toggle menu/navbar script
     $('.menu-btn').click(function () {
@@ -22,19 +33,19 @@ $(document).ready(function () {
         $('.menu-btn i').toggleClass("active");
     });
     // typing animation script
+    var typed = new Typed(".typing", {
+        strings: ["Full stack developer", "Frontend developer", "Designer", "YouTuber", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    })
+    var typed = new Typed(".typing-2", {
+        strings: ["Full stack developer", "Frontend developer", "Designer", "YouTuber", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    })
     /* owl-carousel script*/
-    var typed = new Typed(".typing",{
-        strings: ["Full stack developer", "Frontend developer","Designer","YouTuber","Freelancer"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    })
-    var typed = new Typed(".typing-2",{
-        strings: ["Full stack developer", "Frontend developer","Designer","YouTuber","Freelancer"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    })
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
@@ -42,15 +53,15 @@ $(document).ready(function () {
         autoplayTimeOut: 2000,
         autoplayHoverPause: true,
         responsive: {
-            0:{
+            0: {
                 items: 1,
                 nav: false
             },
-            600:{
+            600: {
                 items: 2,
                 nav: false
             },
-            1000:{
+            1000: {
                 items: 3,
                 nav: false
             }
