@@ -16,13 +16,25 @@ $(document).ready(function () {
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
     })
-    // toggle menu/navbar
     // toggle menu/navbar script
     $('.menu-btn').click(function () {
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
+    // typing animation script
     /* owl-carousel script*/
+    var typed = new Typed(".typing",{
+        strings: ["Full stack developer", "Frontend developer","Designer","YouTuber","Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    })
+    var typed = new Typed(".typing-2",{
+        strings: ["Full stack developer", "Frontend developer","Designer","YouTuber","Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    })
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
