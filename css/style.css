@@ -1,14 +1,14 @@
-@import url('/css/basics.css');
-@import url('/css/navbar.css');
-@import url('/css/menu.css');
-@import url('/css/home.css');
-@import url('/css/about.css');
-@import url('/css/services.css');
-@import url('/css/skills.css');
-@import url('/css/projects.css');
-@import url('/css/contact.css');
-@import url('/css/fonts.css');
-@import url('/css/footer.css');
+@import url('css/basics.css');
+@import url('css/navbar.css');
+@import url('css/menu.css');
+@import url('css/home.css');
+@import url('css/about.css');
+@import url('css/services.css');
+@import url('css/skills.css');
+@import url('css/projects.css');
+@import url('css/contact.css');
+@import url('css/fonts.css');
+@import url('css/footer.css');
 
 html{
     scroll-behavior: smooth;

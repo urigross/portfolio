@@ -59,7 +59,8 @@ section .title {
 .projects .carousel .card .box,
 .owl-dot,
 .contact .right form .button button,
-.scroll-up-btn {
+.scroll-up-btn,
+.sub-title a {
     transition: ease 0.3s all;
 }
 

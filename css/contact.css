@@ -17,7 +17,7 @@
 }
 .contact .contact-content .row{
     display: flex;
-    height: 65px;
+    height: 54px;
     align-items: center;
 }
 .contact .contact-content .row .info{
@@ -81,4 +81,10 @@
 .contact .right form .button button:hover{
     color: crimson;
     background: none;
+}
+#networks a i {
+    margin-right: 25px;
+}
+#networks a i:hover, #phone a i:hover {
+    color: black;
 }
