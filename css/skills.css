@@ -56,18 +56,25 @@
 .skills-content .right .html::before{
     width: 90%;
 }
-.skills-content .right .css::before{
+.skills-content .right .jquery::before{
     width: 90%;
 }
-.skills-content .right .javascript::before{
+.skills-content .right .frameworks::before{
     width: 90%;
 }
-.skills-content .right .vue::before{
+.skills-content .right .backend::before{
     width: 80%;
 }
-.skills-content .right .node::before{
+.skills-content .right .photoshop::before{
     width: 70%;
 }
-.skills-content .right .mongo::before{
+.skills-content .right .team-git::before{
     width: 70%;
 }
+.skills-content .right .worker::before{
+    width: 70%;
+}
+.skills-content .right .dev-tech::before{
+    width: 70%;
+}
+
