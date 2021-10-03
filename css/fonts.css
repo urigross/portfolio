@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'ubuntu';
     src: url('/assets/fonts/Ubuntu-Regular.ttf');
 }
@@ -16,10 +16,12 @@
 @font-face {
     font-family: 'poppins';
     src: url('/assets/fonts/Ubuntu-Regular.ttf');
-}
+} */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 /* fonts common styles */
+.navbar .menu li a,
 .about .about-content .right a,
 section .title,
 .contact .contact-content .info .head,
@@ -35,7 +37,6 @@ section .title,
 .contact .contact-content .text,
 .home .home-content .text-2 ,
 .navbar .logo a,
-.navbar .menu li a,
 .skills .skills-content .left .text{
     font-weight: 600;
 }
@@ -46,6 +47,6 @@ section .title,
 .contact .right form .field input,
 .contact .right form .textarea textarea,
 footer{
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 

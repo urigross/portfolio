@@ -28,7 +28,7 @@ section .title {
     position: relative;
     text-align: center;
     font-size: 40px;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin-bottom: 60px;
     padding-bottom: 20px;
 }
