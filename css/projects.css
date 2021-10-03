@@ -25,7 +25,7 @@
 .projects .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.projects .carousel .card .text{
+.projects .carousel .card  a .text{
     font-size: 25px;
     margin: 10px 0 7px 0;
 }
@@ -59,4 +59,8 @@
 .owl-dot.active,
 .owl-dot:hover{
     background: crimson!important;
+}
+
+.card a {
+    color: inherit;
 }
