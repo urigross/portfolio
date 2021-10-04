@@ -152,4 +152,7 @@ section .title::after {
     .about .about-content .left img{
         width: 292.2px;
     }
+    .services .title::after{
+        width: 136px;
+    }
 }
