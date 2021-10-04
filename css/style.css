@@ -149,4 +149,7 @@ section .title::after {
     .home .home-content .text-3 {
         font-size: 27px;
     }
+    .about .about-content .left img{
+        width: 292.2px;
+    }
 }
