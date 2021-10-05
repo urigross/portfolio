@@ -6,4 +6,5 @@ FontAwesome - For Icons
 owl-carousel
 typed - for typed text
 waypoinds
-
+Images were reduced and edited via photoshop.
+External email client via Formsubmit
