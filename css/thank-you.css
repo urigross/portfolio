@@ -1,0 +1,27 @@
+@import url('/css/fonts.css');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+
+.title{
+    margin-top: 400px;
+}
+.title p{
+    font-size: 20px;
+}
+.title p span {
+    color: crimson;
+}
+.title p a{
+    text-decoration: none;
+}
+
