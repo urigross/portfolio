@@ -1,6 +1,10 @@
 // Audio hovering functionality
 var audio = $("audio")[0];
+function submitAddress() {
+    $('.contact-form').attr('action', 'https://formsubmit.co/urigross@gmail.com');
+}
 $(window).ready(function () {
+    $('.contact-form').attr('action', '');
     $(".minesweeper").mouseenter(function () {
         audio.volume = 0.5;
         audio.play();
@@ -8,7 +12,6 @@ $(window).ready(function () {
     $(".minesweeper").mouseleave(function () {
         audio.pause();
     });
-
     $(".contact-btn").click(function () {
         $("input[name=name]").focus();
     })
