@@ -1,3 +1,17 @@
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.fade-out{
+    animation: fadeOut 4s;
+}
 @import url('/css/fonts.css');
 body{
     font-family: 'Poppins', sans-serif;
@@ -14,12 +28,17 @@ a, a:visited, a:hover, a:active {
 
 .title{
     margin-top: 400px;
+    transition: 0.3s all ease;
 }
 .title p{
     font-size: 20px;
+    transition: 0.3s all ease;
+
 }
 .title p span {
     color: crimson;
+    transition: 0.3s all ease;
+
 }
 .title p a{
     text-decoration: none;
@@ -29,9 +48,13 @@ a, a:visited, a:hover, a:active {
     
 .title{
     margin-top: 50px;
+    transition: 0.3s all ease;
+
 }
 .title h1{
     font-size: 40px;
+    transition: 0.3s all ease;
+
 }
 .title h1 span{
     display: none;
@@ -41,6 +64,7 @@ a, a:visited, a:hover, a:active {
     width: 280px;
     padding-top: 150px;
     margin: 0 auto;
+    transition: 0.3s all ease;
 }
  
 }

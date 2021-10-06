@@ -155,7 +155,4 @@ section .title::after {
     .services .title::after{
         width: 136px;
     }
-    .projects .title::after{
-        width: 150px;
-    }
 }
