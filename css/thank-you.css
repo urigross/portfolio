@@ -25,3 +25,23 @@ a, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
+@media (max-width: 500px) {
+    
+.title{
+    margin-top: 50px;
+}
+.title h1{
+    font-size: 40px;
+}
+.title h1 span{
+    display: none;
+}
+.title p{
+    font-size: 18px;
+    width: 280px;
+    padding-top: 150px;
+    margin: 0 auto;
+}
+ 
+}
+
