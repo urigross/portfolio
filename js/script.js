@@ -1,13 +1,17 @@
 // Audio hovering functionality
 var audio = $("audio")[0];
-$(".minesweeper").mouseenter(function () {
-    audio.volume = 0.5;
-    audio.play();
-});
-$(".minesweeper").mouseleave(function () {
-    audio.pause();
-});
-$(document).ready(function () {
+$(window).ready(function () {
+    $(".minesweeper").mouseenter(function () {
+        audio.volume = 0.5;
+        audio.play();
+    });
+    $(".minesweeper").mouseleave(function () {
+        audio.pause();
+    });
+
+    $(".contact-btn").click(function () {
+        $("input[name=name]").focus();
+    })
     $(window).scroll(function () {
         //  Navbar apperance toggling when scrolling down
         if (this.scrollY > 20) {
