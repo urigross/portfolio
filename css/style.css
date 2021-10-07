@@ -41,6 +41,14 @@ section .title::after {
 
 
 /* responsive media query start */
+@media(max-width: 3000px){
+    .contact-btn{
+        display: inline-block;
+    }
+    .contact-btn-responsive{
+        display: none;
+    }
+}
 
 @media (max-width: 1300px) {
     .home .max-width {
@@ -144,6 +152,12 @@ section .title::after {
 }
 
 @media (max-width: 500px) {
+    .contact-btn{
+        display: none;
+    }
+    .contact-btn-responsive{
+        display: inline-block;
+    }
     .home .home-content .text-2 {
         font-size: 50px;
     }
