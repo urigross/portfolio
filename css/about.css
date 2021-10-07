@@ -25,9 +25,6 @@
     text-align: justify;
 }
 
-.about .about-content .right p span::before {
-    content: "on the left";
-}
 
 .about .about-content .right a{
     display: inline-block;
