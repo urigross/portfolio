@@ -1,10 +1,17 @@
 // Audio hovering functionality
 var audio = $("audio")[0];
+var skills = [
+    {
+    title:"HTML/SCSS/CSS/JS",
+    percentage:"90%"
+}
+]
+
 function submitAddress() {
     $('.contact-form').attr('action', 'https://formsubmit.co/urigross@gmail.com');
 }
-
 $(window).ready(function () {
+    $('.skills-content .right .frameworks').attr('data-before','90%');
         $('.contact-form').attr('action', '');
         $(".minesweeper").mouseenter(function () {
             audio.volume = 0.5;
@@ -42,13 +49,13 @@ $(window).ready(function () {
         });
         // typing animation script
         var typed = new Typed(".typing", {
-            strings: ["Full stack", "Frontend", "Designer", "YouTuber", "Freelancer"],
+            strings: ["Full stack", "Frontend"],
             typeSpeed: 100,
             backSpeed: 60,
             loop: true
         })
         var typed = new Typed(".typing-2", {
-            strings: ["Full stack", "Frontend", "Designer", "YouTuber", "Freelancer"],
+            strings: ["Full stack", "Frontend"],
             typeSpeed: 100,
             backSpeed: 60,
             loop: true

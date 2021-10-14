@@ -176,5 +176,8 @@ section .title::after {
     .services .title::after{
         width: 136px;
     }
+    .about .about-content .right .text{
+        width: 220px;
+    }
 
 }

@@ -60,7 +60,7 @@
     width: 90%;
 }
 .skills-content .right .frameworks::before{
-    width: 90%;
+    width: attr(data-before);
 }
 .skills-content .right .backend::before{
     width: 90%;
