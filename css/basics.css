@@ -33,10 +33,13 @@ section .title {
     padding-bottom: 20px;
 }
 
+.hidden {
+    display: none;
+}
 
 /* cursor area */
 
-.services .serv-content .card,
+.services,
 .menu-btn, .contact .right form .button button,
 .scroll-up-btn {
     cursor: pointer;
