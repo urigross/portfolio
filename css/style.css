@@ -15,7 +15,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* black line  */
+/*  line  */
 
 section .title::before {
     content: "";
@@ -28,6 +28,7 @@ section .title::before {
     transform: translateX(-50%);
 }
 
+/* text between the lines */
 section .title::after {
     position: absolute;
     bottom: -12px;
@@ -179,5 +180,10 @@ section .title::after {
     .about .about-content .right .text{
         width: 220px;
     }
-
 }
+@media (max-width: 400px){
+    .projects .title::after{
+        min-width: 146px;
+    }
+}
+
