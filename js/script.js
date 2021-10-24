@@ -37,6 +37,12 @@ $(window).ready(function () {
             else {
                 $('.scroll-up-btn').removeClass("show");
             }
+            if (this.scrollY > 5600) {
+                $('.scroll-up-btn.show').css('bottom','100px')
+            }
+            else{
+                $('.scroll-up-btn.show').css('bottom','10px')
+            }
         });
         // slide-up script
         $('.scroll-up-btn').click(function () {
