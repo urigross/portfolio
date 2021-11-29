@@ -57,9 +57,9 @@
     width: 90%;
 }
 .skills-content .right .jquery::before{
-    width: 90%;
+    width: 70%;
 }
-.skills-content .right .frameworks::before{
+.skills-content .right .angular::before{
     width: 90%;
 }
 .skills-content .right .backend::before{
@@ -74,8 +74,8 @@
 .skills-content .right .worker::before{
     width: 100%;
 }
-.skills-content .right .dev-tech::before{
-    width: 90%;
+.skills-content .right .vue-js::before{
+    width: 70%;
 }
 
 .info span span{
