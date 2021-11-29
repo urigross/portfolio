@@ -64,3 +64,6 @@
 .card a {
     color: inherit;
 }
+.card{
+    height: 430px;
+}
