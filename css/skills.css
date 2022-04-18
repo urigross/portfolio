@@ -56,7 +56,7 @@
 .skills-content .right .html::before{
     width: 90%;
 }
-.skills-content .right .jquery::before{
+.skills-content .right .react::before{
     width: 70%;
 }
 .skills-content .right .angular::before{
