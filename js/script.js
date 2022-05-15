@@ -53,6 +53,8 @@ $(window).ready(function () {
             $('.navbar .menu').toggleClass("active");
             $('.menu-btn i').toggleClass("active");
         });
+        var currDate = new Date();
+        $('.footer-year').text((currDate).getFullYear());
         // typing animation script
         var typed = new Typed(".typing", {
             strings: ["Full stack", "Frontend"],
